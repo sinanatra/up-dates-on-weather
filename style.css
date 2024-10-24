@@ -1,0 +1,79 @@
+html {}
+
+body {
+    font-family:
+        Arial Narrow,
+        Helvetica,
+        sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    max-width: 1920px;
+    margin: 0 auto;
+    font-size: clamp(18px, 1.6vw, 28px);
+
+}
+
+a {
+    color: blue;
+}
+
+h1,
+h2,
+h3,
+p {
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+}
+
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 10px;
+
+}
+
+section>* {
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+}
+
+.carousel {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 450px;
+    gap: 10px;
+    overflow: scroll;
+}
+
+section p, section h1 {
+    min-width: 250px;
+}
+
+
+img,
+video {
+    padding: 0;
+    max-width: 600px;
+    /* max-height: 400px; */
+    object-fit: cover;
+}
+
+@font-face {
+    font-family: "Arial Narrow";
+    src: url("./static/arialnarrow.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+::selection {
+    background-color: yellow;
+    color: black;
+}

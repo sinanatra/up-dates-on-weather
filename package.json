@@ -1,0 +1,32 @@
+{
+  "name": "up-dates-on-weather",
+  "version": "1.0.0",
+  "description": "Up-Dates on Weather is a metaLAB (at) Berlin research project in collaboration with ZK/U Berlin – Center for Art and Urbanistics that reexamines the common interfaces between weather, bees, humans, data, truth, and climate change.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimalbrecht/up-dates-on-weather.git"
+  },
+  "keywords": [
+    "metalab",
+    "data",
+    "weather"
+  ],
+  "author": "Giacomo Nanni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kimalbrecht/up-dates-on-weather/issues"
+  },
+  "homepage": "https://github.com/kimalbrecht/up-dates-on-weather#readme",
+  "dependencies": {
+    "gh-pages": "^6.2.0",
+    "vite": "^5.4.9"
+  }
+}
